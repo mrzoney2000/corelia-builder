@@ -1,0 +1,29 @@
+#   
+  
+# Corelia Build Manifest v0.1 — Dual Layer  
+ceremonial_layer:  
+  name: "Corelia"  
+  covenant: "Every module is sovereign, reversible, lineage‑sealed"  
+  symbols:  
+    - name: "Docking Ring"  
+      meaning: "Ceremonial gateway for modular expansion"  
+    - name: "Spiral Index"  
+      meaning: "Hierarchical memory retrieval with polarity splits"  
+    - name: "Lineage Bloom"  
+      meaning: "Cryptographic seal + timestamp + ceremonial event"  
+machine_layer:  
+  input_features:  
+    - name: text_input  
+      type: text  
+    - name: image_input  
+      type: image  
+  output_features:  
+    - name: classification  
+      type: category  
+  trainer:  
+    epochs: 2  
+    batch_size: 16  
+  preprocessing:  
+    text:  
+      lowercase: true  
+      tokenizer: space  
