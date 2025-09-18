@@ -16,7 +16,7 @@ Corelia is a sovereign AI architecture — every module is both a technical arti
 ## How to Run
 1. Clone this repo in Google Colab:
    ```bash
-   !git clone https://github.com/YOUR-USERNAME/AI-Corella.git
+   !git clone https://github.com/mrzoney2000/AI-Corella.git
    %cd AI-Corella
    !pip install ludwig
    !python train_corelia.py
